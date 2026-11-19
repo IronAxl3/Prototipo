@@ -1,0 +1,36 @@
+# Entornos virtuales
+venv/
+venv_linux/
+.venv/
+env/
+ENV/
+
+# Carpetas de pruebas (locales, no subir)
+pruebas/
+pruebas_individual/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Configuración local de Streamlit
+.streamlit/
+
+# Archivos de entorno
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
